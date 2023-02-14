@@ -1,0 +1,36 @@
+.reserver-le-menu{
+    text-align: center;
+
+    h2{
+        margin: 0px;
+        padding-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    p{
+        color: gray;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .boutton-explorer-nos-restaurants{
+        border-radius: 25px;
+        padding: 13px;
+        margin-bottom: 60px;
+        background-image: linear-gradient(#FF79DA , #9356DC);
+        border: transparent;
+        -webkit-box-shadow: -1px 5px 19px -1px rgba(0,0,0,0.42); 
+        box-shadow: -1px 5px 19px -1px rgba(32, 1, 1, 0.42);
+        &:hover{
+            background-image: linear-gradient(#fd86db , #9b61e2);
+            -webkit-box-shadow: -1px 5px 19px -1px rgba(0,0,0,0.42); 
+            box-shadow: -1px 5px 19px -1px rgba(32, 1, 1, 0.807);
+            transition: 1s;
+        }
+        span{
+            margin: 0px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.a_la_francaise{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-radius: 25px 25px 0 0;
+    background-color: #eeeeee;
+    margin-top: -30px;
+    position: relative;
+    h2{
+        margin-left: 20px;
+        font-family: 'Shrikhand', cursive;
+    }
+    .icone_coeur{
+        .fa-regular.fa-heart{
+            margin-top: 15px;
+            margin-right: -22px;
+            font-size: large;
+            margin-bottom: 20px;
+        }
+        .fa-solid.fa-heart{
+            margin-top: 15px;
+            margin-right: 15px;
+            font-size: large;
+            margin-bottom: 20px;
+            opacity: 0;
+            background-image: linear-gradient(variables.$violet,variables.$rose );
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            &:hover{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 0.4s;
+            }
+        }
+    }
+}

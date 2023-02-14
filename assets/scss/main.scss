@@ -1,0 +1,34 @@
+@use "./variables.scss";
+@import "./header/base.scss";
+@import "./header/titre+loader.scss";
+@import "./header/acceuil-localisation.scss";
+@import "./header/acceuil_explorer_menu.scss";
+@import "./body/acceuil-Fonctionnement.scss";
+@import "./body/acceuil-Restaurants.scss";
+@import "./body/footer.scss";
+@import "./les_menus/alafrancaise/header/base.scss";
+@import "./les_menus/alafrancaise/header/header_image.scss";
+@import "./les_menus/alafrancaise/body/bouton_explorer+commander.scss";
+@import "./les_menus/alafrancaise/body/entrees-plats-desserts.scss";
+@import "./les_menus/alafrancaise/body/titre-menu.scss";
+.color-blanc{
+    color: white;
+}
+.color-gris-clair{
+    color: rgb(128, 128, 128);
+}
+.color-noir{
+color: black;
+}
+.background-color-gris{
+    background-color: rgba(128, 128, 128, 0.259);
+}
+.background-gris-clair{
+    background-color: rgb(246, 245, 245);
+}
+.background-violet{
+    background-color: #9356DC;
+}
+@mixin background__gris__clair {
+    background-color: lightgrey;
+}
